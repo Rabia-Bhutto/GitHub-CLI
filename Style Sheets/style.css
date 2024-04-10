@@ -1,0 +1,188 @@
+/* Normal Roboto Font */
+@font-face
+{
+    font-family: roboto-reg;
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+/* Bold Roboto Font */
+@font-face
+{
+    font-family: roboto-bold;
+    src: url('../Fonts/Roboto-Bold.ttf');
+}
+
+/* Styles applied of the whole body */
+body
+{
+    font-family: roboto-reg;
+}
+
+/* Logo image */
+.logo
+{
+    width: 80px !important;
+    height: 70px !important;
+}
+
+/* To add hover affects on the Nav Bar links */
+.hover:hover
+{
+ text-decoration: underline;
+}
+
+/* Heading of the Hero Section */
+.hero-head
+{
+    font-family: roboto-bold;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+/* 
+.linear-gradient
+{
+    background-image: linear-gradient(to right, #384588 20%, #7C3BC1 60%, #499756 80%);   
+} */
+
+/* Heading of the Black Screen Section */
+.bs-head
+{
+    font-family: monospace;
+    animation: myAnimation 2s ease-in-out backwards;
+}
+
+/* Conatainer containing the Black Container */
+.card-container
+{
+    font-family: monospace;
+    animation: myAnimation 2s ease-in-out forwards;
+}
+
+/* Black Container */
+.card
+{
+    background-color: black;
+    height: 500px;
+}
+
+/* An imaginary Top Bar on the Black Container to add icons */
+.top-bar
+{
+    height: 60px !important;
+}
+
+/* Heading at the bottom of the Black Screen Section */
+.bs-bottom-head
+{
+    /* font-family: monospace; */
+    font-weight: bolder;
+}
+
+/* Heading of the Features Ssection */
+.feat-head
+{
+    font-family: roboto-bold;
+    font-size: 90px;
+}
+
+/* Sub-heading of the Features Section */
+.feat-sub-head
+{
+    font-family: roboto-bold;
+    font-size: 50px;
+}
+
+/* Bottom Card Section */
+.bottom-card 
+{
+    background-image: url('../Images/card-bg.png');
+}
+
+/* Bottom Card Container */
+.b-card
+{
+    height: 200px;
+    border: none;
+}
+
+/* Heading of the Bottom Card */
+.b-card-head
+{
+    font-family: roboto-bold;
+    font-size: 45px;
+}
+
+/* For the background of Bottom Card */
+.b-card-bg
+{
+    background-color: white;
+    box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.12);
+-webkit-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.12);
+-moz-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.12);
+}
+
+/* Heading of the Footer */
+.foot-head
+{
+    font-family: roboto-bold;
+    font-weight: bolder;
+}
+
+/* Headings of the links in the Footer */
+.foot-link-head
+{
+    font-family: monospace;
+}
+
+/* Media Query to target small and medium sized screens together */
+@media screen and (max-width:992px)
+{
+    /* Heading beside the Logo */
+    .logo-head
+    {
+        font-size: 30px !important;
+    }
+
+    /* Heading of the Hero Section */
+    .hero-head
+    {
+        font-size: 40px;
+    }
+
+    /* Paragraph of the Card */
+    .card-p
+    {
+        font-size: 15px !important;
+    }
+
+    /* An imaginary Top Bar on the Black Container to add icons */
+    .top-bar
+    {
+        height: 200px !important;
+    }
+
+    /* Heading of the Features Ssection */
+    .feat-head
+    {
+        font-size: 40px;
+    }
+
+    /* Heading of the Bottom Card Section */
+    .b-card-head
+    {
+        font-size: 30px;
+    }
+
+    /* Paragraph of the Bottom Card Section */
+    .b-card-p
+    {
+        font-size: 18px !important;
+    }
+
+    /* Anchor Tag of the Bottom Card Section */
+    .b-card-a
+    {
+        font-size: 18px !important;
+    }
+}
